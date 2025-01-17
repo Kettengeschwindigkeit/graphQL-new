@@ -27,12 +27,3 @@ scalar DateTime
 type Query {
   users: [User!]!
 }
-
-type Mutation {
-  createUser(data: UserInput!): User!
-}
-
-input UserInput {
-  email: String!
-  password: String!
-}
